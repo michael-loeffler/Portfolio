@@ -2,14 +2,14 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs justify-content-end">
       <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange('About Me')}
           className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          About Me
         </a>
       </li>
       <li className="nav-item">
