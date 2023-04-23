@@ -9,7 +9,8 @@ function Project(props) {
             <h5 className="card-title">{props.title}<span className="badge badge-pill badge-dark">Node</span></h5>
             <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
-        <div className="card-footer">
+        <div className="card-footer d-flex justify-content-between">
+            <a href={props.deployed} target="_blank" rel="noreferrer"><small className="text-muted">Deployed App</small></a>
             <a href={props.github}><small className="text-muted">GitHub Repo</small></a>
         </div>
     </div>
