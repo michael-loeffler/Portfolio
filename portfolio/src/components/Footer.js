@@ -4,7 +4,7 @@ import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-sv
 
 export default function Footer() {
   return (
-     <footer className='fixed-bottom d-flex justify-content-center'>
+     <footer className='position-absolute bottom-0 w-100 d-flex justify-content-center' style={{height: "50px"}}>
         <section className="mb-4">
         <a
           className="btn btn-link btn-floating btn-lg text-dark m-1"

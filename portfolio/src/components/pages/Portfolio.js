@@ -23,7 +23,7 @@ export default function Portfolio() {
 
 
   return (
-    <div>
+    <div style={{paddingBottom: "50px"}}>
       <h1>Portfolio Page</h1>
       <div className="card-deck d-flex flex-wrap justify-content-around">
         <Project title="Full-Stack E-commerce Site" src={thumbnail} github={github[0]} deployed={deployed[0]}/> 
