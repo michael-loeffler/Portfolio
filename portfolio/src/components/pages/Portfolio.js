@@ -25,7 +25,7 @@ export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio Page</h1>
-      <div className="card-deck d-flex">
+      <div className="card-deck d-flex flex-wrap justify-content-around">
         <Project title="Full-Stack E-commerce Site" src={thumbnail} github={github[0]} deployed={deployed[0]}/> 
         <Project title="Tech Blog - MVC" src={thumbnail} github={github[1]} deployed={deployed[1]}/>
         <Project title="Social Network API - NoSQL/MongoDB" src={thumbnail} github={github[2]} deployed={deployed[2]}/>
