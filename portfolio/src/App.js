@@ -28,7 +28,7 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className='position-relative min-vh-100'>
+    <div className='position-relative min-vh-100 w-100'>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />

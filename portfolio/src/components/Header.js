@@ -10,12 +10,13 @@ const styles = {
   },
   h1: {
     padding: 20,
+    display: 'inline'
   },
 };
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <header style={styles.header}>
+    <header style={styles.header} className='d-flex justify-content-between'>
         <h1 style={styles.h1}>Michael Loeffler</h1>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
     </header>
