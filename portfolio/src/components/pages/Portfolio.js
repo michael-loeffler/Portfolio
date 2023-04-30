@@ -6,50 +6,88 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Full-Stack E-commerce Site",
+      title: 'Full-Stack E-commerce Site',
       src: thumbnail,
       github: 'https://github.com/michael-loeffler/Shoe-Store',
-      deployed: 'https://mighty-brushlands-95444.herokuapp.com/'
+      deployed: 'https://mighty-brushlands-95444.herokuapp.com/',
+      badges: [
+        'Node',
+        'Express',
+        'SQL',
+        'Sequelize',
+        'Handlebars',
+        'bcrypt',
+        'dotenv',
+        'Heroku'
+      ]
     },
     {
-      title: "Tech Blog - Model View Controller framework",
+      title: 'Tech Blog - Model View Controller framework',
       src: thumbnail,
       github: 'https://github.com/michael-loeffler/Tech-Blog',
-      deployed: 'https://shrouded-gorge-55801.herokuapp.com/'
+      deployed: 'https://shrouded-gorge-55801.herokuapp.com/',
+      badges: [
+        'Node',
+        'Express',
+        'SQL',
+        'Sequelize',
+        'Handlebars',
+        'bcrypt',
+        'dotenv',
+        'Heroku'
+      ]
     },
     {
-      title: "Social Network API - NoSQL/MongoDB",
+      title: 'Social Network API - NoSQL/MongoDB',
       src: thumbnail,
       github: 'https://github.com/michael-loeffler/Social-Network-API',
-      deployed: 'https://drive.google.com/file/d/1NLW6204mswgokpV0Pn1CKKZ3e0Gx9fMp/view'
+      deployed: 'https://drive.google.com/file/d/1NLW6204mswgokpV0Pn1CKKZ3e0Gx9fMp/view',
+      badges: [
+        'MongoDB',
+        'Mongoose',
+        'Node',
+        'Express'
+      ]
     },
     {
-      title: "README Generator - Node",
+      title: 'README Generator - Node',
       src: thumbnail,
       github: 'https://github.com/michael-loeffler/README-Generator',
-      deployed: 'https://drive.google.com/file/d/17rqFUdYIMLsRvTYWKeA0RGSfGleac7Ae/view'
+      deployed: 'https://drive.google.com/file/d/17rqFUdYIMLsRvTYWKeA0RGSfGleac7Ae/view',
+      badges: [
+        'Node',
+        'inquirer'
+      ]
     },
     {
-      title: "Weather Dashboard - Server-Side APIs",
+      title: 'Weather Dashboard - Server-Side APIs',
       src: thumbnail,
       github: 'https://github.com/michael-loeffler/Weather-Dashboard',
-      deployed: 'https://michael-loeffler.github.io/Weather-Dashboard/'
+      deployed: 'https://michael-loeffler.github.io/Weather-Dashboard/',
+      badges: [
+        'JavaScript',
+        'jQuery',
+        'dayjs',
+        'Bootstrap',
+        'OpenWeather API'
+      ]
     },
     {
-      title: "Password Generator - JavaScript",
+      title: 'Password Generator - JavaScript',
       src: thumbnail,
       github: 'https://github.com/michael-loeffler/Password-Generator',
-      deployed: 'https://michael-loeffler.github.io/Password-Generator/'
+      deployed: 'https://michael-loeffler.github.io/Password-Generator/',
+      badges: ['JavaScript']
     },
   ];
 
   return (
-    <div style={{ paddingBottom: "50px" }}>
+    <div style={{ paddingBottom: '50px' }}>
       <h1 className='text-center mt-3'>Portfolio</h1>
-      <div className="card-deck d-flex flex-wrap justify-content-around">
+      <div className='card-deck d-flex flex-wrap justify-content-around'>
         {projects.map((project) => {
           return (
-            <Project title={project.title} src={project.src} github={project.github} deployed={project.deployed} />
+            <Project title={project.title} src={project.src} github={project.github} deployed={project.deployed} badges={project.badges}/>
           );
         })}
       </div>
