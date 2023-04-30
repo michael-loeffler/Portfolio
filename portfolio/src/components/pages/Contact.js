@@ -15,12 +15,12 @@ export default function Contact() {
 
   return (
     <div style={{paddingBottom: "50px"}} className='d-flex flex-column align-items-center'>
-      <h1 className='mt-2'>Contact Page</h1>
+      <h1 className='text-center mt-3'>Contact Me</h1>
 
       <Form className="needs-validation col-md-6" noValidate validated={validated} onSubmit={handleSubmit} onBlur={handleSubmit}>
       <Form.Group>
         <Form.Label>Name</Form.Label>
-        <Form.Control type="text" placeholder="Kevin McCallister" required/>
+        <Form.Control type="text" placeholder="Peter Parker" required/>
         <Form.Control.Feedback type='invalid'>
           This field is required.
         </Form.Control.Feedback>

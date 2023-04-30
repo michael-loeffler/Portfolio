@@ -3,6 +3,9 @@ import Project from '../Project'
 import thumbnail from '../../assets/placeholder-300x200.gif';
 
 export default function Portfolio() {
+
+  // consider creating an object for each project then use map over the projects array to render each project
+
   const github = [
     'https://github.com/michael-loeffler/Shoe-Store',
     'https://github.com/michael-loeffler/Tech-Blog',
@@ -24,7 +27,7 @@ export default function Portfolio() {
 
   return (
     <div style={{paddingBottom: "50px"}}>
-      <h1>Portfolio Page</h1>
+      <h1 className='text-center mt-3'>Portfolio</h1>
       <div className="card-deck d-flex flex-wrap justify-content-around">
         <Project title="Full-Stack E-commerce Site" src={thumbnail} github={github[0]} deployed={deployed[0]}/> 
         <Project title="Tech Blog - MVC" src={thumbnail} github={github[1]} deployed={deployed[1]}/>

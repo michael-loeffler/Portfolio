@@ -3,7 +3,7 @@ import React from 'react';
 export default function Resume() {
   return (
     <div className="d-flex flex-column align-items-center" style={{paddingBottom: "50px"}}>
-      <h1 className='mt-2'>Resume Page</h1>
+      <h1 className='text-center mt-3'>Resume</h1>
       <a href="https://docs.google.com/document/d/1WPSw44IoKUFXcExWGt3zNqWq6DeWBifn/edit" download="filename"><button className="btn btn-secondary mt-3">Download my Resume</button></a>
 
         <div className="card mt-5">
