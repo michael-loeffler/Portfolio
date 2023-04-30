@@ -1,12 +1,16 @@
 import React from 'react';
+import Badge from 'react-bootstrap/Badge';
 import '../App.css';
 
-function Project({title, src, github, deployed}) {
+function Project({title, src, github, deployed, badges}) {
     return (
     <div className="card w-25 mb-5 mt-3 mx-1">
         <img className="card-img-top" src={src} alt="" />
         <div className="card-body">
-            <h5 className="card-title">{title}<span className="badge badge-pill badge-dark">Node</span></h5>
+            <h5 className="card-title">{title}</h5>
+            {badges.map((badge) => {
+            return (<Badge pill bg="dark">{badge}</Badge>)
+            })}
             <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
         <div className="card-footer d-flex justify-content-between">
