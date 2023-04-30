@@ -3,7 +3,7 @@ import '../App.css';
 
 function Project(props) {
     return (
-    <div className="card w-25 my-5 mx-1">
+    <div className="card w-25 mb-5 mt-3 mx-1">
         <img className="card-img-top" src={props.src} alt="" />
         <div className="card-body">
             <h5 className="card-title">{props.title}<span className="badge badge-pill badge-dark">Node</span></h5>
