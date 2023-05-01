@@ -1,7 +1,12 @@
+// import thumbnail from '../../assets/placeholder-300x200.gif';
 import React from 'react';
 import Project from '../Project'
-import thumbnail from '../../assets/placeholder-300x200.gif';
-import ecommerce from '../../assets/ecommerce_site.PNG'
+import ecommerce from '../../assets/ecommerce.PNG'
+import tech from '../../assets/tech.PNG'
+import social from '../../assets/social.PNG'
+import readme from '../../assets/readme.PNG'
+import weather from '../../assets/weather.PNG'
+import passGen from '../../assets/passGen.PNG'
 
 export default function Portfolio() {
 
@@ -25,7 +30,7 @@ export default function Portfolio() {
     },
     {
       title: 'Tech Blog - Model View Controller framework',
-      src: thumbnail,
+      src: tech,
       github: 'https://github.com/michael-loeffler/Tech-Blog',
       deployed: 'https://shrouded-gorge-55801.herokuapp.com/',
       badges: [
@@ -42,7 +47,7 @@ export default function Portfolio() {
     },
     {
       title: 'Social Network API - NoSQL/MongoDB',
-      src: thumbnail,
+      src: social,
       github: 'https://github.com/michael-loeffler/Social-Network-API',
       deployed: 'https://drive.google.com/file/d/1NLW6204mswgokpV0Pn1CKKZ3e0Gx9fMp/view',
       badges: [
@@ -55,7 +60,7 @@ export default function Portfolio() {
     },
     {
       title: 'README Generator - Node',
-      src: thumbnail,
+      src: readme,
       github: 'https://github.com/michael-loeffler/README-Generator',
       deployed: 'https://drive.google.com/file/d/17rqFUdYIMLsRvTYWKeA0RGSfGleac7Ae/view',
       badges: [
@@ -66,7 +71,7 @@ export default function Portfolio() {
     },
     {
       title: 'Weather Dashboard - Server-Side APIs',
-      src: thumbnail,
+      src: weather,
       github: 'https://github.com/michael-loeffler/Weather-Dashboard',
       deployed: 'https://michael-loeffler.github.io/Weather-Dashboard/',
       badges: [
@@ -80,7 +85,7 @@ export default function Portfolio() {
     },
     {
       title: 'Password Generator - JavaScript',
-      src: thumbnail,
+      src: passGen,
       github: 'https://github.com/michael-loeffler/Password-Generator',
       deployed: 'https://michael-loeffler.github.io/Password-Generator/',
       badges: ['JavaScript'],
