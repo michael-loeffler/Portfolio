@@ -1,10 +1,11 @@
 import React from 'react';
+import resume from '../../assets/Loeffler, Michael - Resume.pdf'
 
 export default function Resume() {
   return (
     <div className="d-flex flex-column align-items-center" style={{paddingBottom: "50px"}}>
       <h1 className='text-center mt-3'>Resume</h1>
-      <a href="https://docs.google.com/document/d/1WPSw44IoKUFXcExWGt3zNqWq6DeWBifn/edit" download="filename" target='_blank' rel='noopener noreferrer'><button className="btn btn-info mt-3">Download my Resume</button></a>
+      <a href={resume} download="Loeffler, Michael - Resume.pdf" target='_blank' rel='noopener noreferrer'><button className="btn btn-info mt-3">Download my Resume</button></a>
 
         <div className="card mt-4 text-center w-25">
           <div className="card-header">
