@@ -1,13 +1,14 @@
 import React from 'react';
 import Project from '../Project'
 import thumbnail from '../../assets/placeholder-300x200.gif';
+import ecommerce from '../../assets/ecommerce_site.PNG'
 
 export default function Portfolio() {
 
   const projects = [
     {
       title: 'Full-Stack E-commerce Site',
-      src: thumbnail,
+      src: ecommerce,
       github: 'https://github.com/michael-loeffler/Shoe-Store',
       deployed: 'https://mighty-brushlands-95444.herokuapp.com/',
       badges: [
@@ -19,7 +20,8 @@ export default function Portfolio() {
         'bcrypt',
         'dotenv',
         'Heroku'
-      ]
+      ],
+      key: 1
     },
     {
       title: 'Tech Blog - Model View Controller framework',
@@ -35,7 +37,8 @@ export default function Portfolio() {
         'bcrypt',
         'dotenv',
         'Heroku'
-      ]
+      ],
+      key: 2
     },
     {
       title: 'Social Network API - NoSQL/MongoDB',
@@ -47,7 +50,8 @@ export default function Portfolio() {
         'Mongoose',
         'Node',
         'Express'
-      ]
+      ],
+      key: 3
     },
     {
       title: 'README Generator - Node',
@@ -57,7 +61,8 @@ export default function Portfolio() {
       badges: [
         'Node',
         'inquirer'
-      ]
+      ],
+      key: 4
     },
     {
       title: 'Weather Dashboard - Server-Side APIs',
@@ -70,14 +75,16 @@ export default function Portfolio() {
         'dayjs',
         'Bootstrap',
         'OpenWeather API'
-      ]
+      ],
+      key: 5
     },
     {
       title: 'Password Generator - JavaScript',
       src: thumbnail,
       github: 'https://github.com/michael-loeffler/Password-Generator',
       deployed: 'https://michael-loeffler.github.io/Password-Generator/',
-      badges: ['JavaScript']
+      badges: ['JavaScript'],
+      key: 6
     },
   ];
 
@@ -87,7 +94,7 @@ export default function Portfolio() {
       <div className='card-deck d-flex flex-wrap justify-content-around'>
         {projects.map((project) => {
           return (
-            <Project title={project.title} src={project.src} github={project.github} deployed={project.deployed} badges={project.badges}/>
+            <Project title={project.title} src={project.src} github={project.github} deployed={project.deployed} badges={project.badges} key={project.key}/>
           );
         })}
       </div>
