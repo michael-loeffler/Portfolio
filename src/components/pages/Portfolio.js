@@ -1,16 +1,36 @@
 // import thumbnail from '../../assets/placeholder-300x200.gif';
 import React from 'react';
 import Project from '../Project'
+import calendar from '../../assets/calendar.png'
 import ecommerce from '../../assets/ecommerce.PNG'
 import tech from '../../assets/tech.PNG'
-import social from '../../assets/social.PNG'
-import readme from '../../assets/readme.PNG'
+import pwa from '../../assets/pwa.png'
 import weather from '../../assets/weather.PNG'
-import passGen from '../../assets/passGen.PNG'
 
 export default function Portfolio() {
 
   const projects = [
+    {
+      title: 'Full-Stack Calendar App',
+      src: calendar,
+      github: 'https://github.com/michael-loeffler/Calendar-App',
+      deployed: 'https://sleepy-sierra-54387.herokuapp.com/',
+      badges: [
+        'MongoDB',
+        'Mongoose',
+        'Express',
+        'React',
+        'Node',
+        'Apollo/GraphQL',
+        'bcrypt',
+        'Jsonwebtoken',
+        'Jwt-decode',
+        'Heroku',
+        'Dayjs',
+      ],
+      description: 'Full-Stack, single-page calendar application allowing users to sign-in and create, update, or delete events to stay organized.',
+      key: 1
+    },
     {
       title: 'Full-Stack E-commerce Site',
       src: ecommerce,
@@ -26,10 +46,11 @@ export default function Portfolio() {
         'dotenv',
         'Heroku'
       ],
-      key: 1
+      description: 'Full-Stack e-commerce website allowing users to sort results by desired criteria, as well as access Wishlist and Cart features once they create an account and sign-in',
+      key: 2
     },
     {
-      title: 'Tech Blog - Model View Controller framework',
+      title: 'Full-Stack Tech Blog',
       src: tech,
       github: 'https://github.com/michael-loeffler/Tech-Blog',
       deployed: 'https://shrouded-gorge-55801.herokuapp.com/',
@@ -41,32 +62,24 @@ export default function Portfolio() {
         'Handlebars',
         'bcrypt',
         'dotenv',
-        'Heroku'
+        'Heroku',
+        'Model-View-Controller'
       ],
-      key: 2
-    },
-    {
-      title: 'Social Network API - NoSQL/MongoDB',
-      src: social,
-      github: 'https://github.com/michael-loeffler/Social-Network-API',
-      deployed: 'https://drive.google.com/file/d/1NLW6204mswgokpV0Pn1CKKZ3e0Gx9fMp/view',
-      badges: [
-        'MongoDB',
-        'Mongoose',
-        'Node',
-        'Express'
-      ],
+      description: 'Full-Stack blog web application allowing users to create, update & delete posts, as well as comments on other posts.',
       key: 3
     },
     {
-      title: 'README Generator - Node',
-      src: readme,
-      github: 'https://github.com/michael-loeffler/README-Generator',
-      deployed: 'https://drive.google.com/file/d/17rqFUdYIMLsRvTYWKeA0RGSfGleac7Ae/view',
+      title: 'PWA Text Editor',
+      src: pwa,
+      github: 'https://github.com/michael-loeffler/PWA-Text-Editor',
+      deployed: 'https://limitless-woodland-21063.herokuapp.com/',
       badges: [
-        'Node',
-        'inquirer'
+        'babel',
+        'webpack',
+        'idb',
+        'Express',
       ],
+      description: 'A simple text editor that allows users to store notes and/or code snippets for future reference, used as an opportunity to learn about Progressive Web Applications (PWAs).',
       key: 4
     },
     {
@@ -81,15 +94,8 @@ export default function Portfolio() {
         'Bootstrap',
         'OpenWeather API'
       ],
+      description: 'Front-End web application that utilizes the OpenWeatherMap API to fetch weather data for a city based on user input.',
       key: 5
-    },
-    {
-      title: 'Password Generator - JavaScript',
-      src: passGen,
-      github: 'https://github.com/michael-loeffler/Password-Generator',
-      deployed: 'https://michael-loeffler.github.io/Password-Generator/',
-      badges: ['JavaScript'],
-      key: 6
     },
   ];
 
@@ -99,7 +105,7 @@ export default function Portfolio() {
       <div className='card-deck d-flex flex-wrap justify-content-around'>
         {projects.map((project) => {
           return (
-            <Project title={project.title} src={project.src} github={project.github} deployed={project.deployed} badges={project.badges} key={project.key}/>
+            <Project title={project.title} src={project.src} github={project.github} deployed={project.deployed} badges={project.badges} description={project.description} key={project.key}/>
           );
         })}
       </div>
