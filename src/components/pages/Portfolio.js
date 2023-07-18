@@ -25,8 +25,8 @@ export default function Portfolio() {
         'bcrypt',
         'Jsonwebtoken',
         'Jwt-decode',
-        'Heroku',
-        'Dayjs',
+        'dayjs',
+        'Heroku'
       ],
       description: 'Full-Stack, single-page calendar application allowing users to sign-in and create, update, or delete events to stay organized.',
       key: 1
@@ -37,16 +37,18 @@ export default function Portfolio() {
       github: 'https://github.com/michael-loeffler/Shoe-Store',
       deployed: 'https://mighty-brushlands-95444.herokuapp.com/',
       badges: [
-        'Node',
-        'Express',
-        'SQL',
+        'MySQL',
         'Sequelize',
+        'Express',
         'Handlebars',
+        'Node',
         'bcrypt',
         'dotenv',
+        'Bootstrap',
+        'EmailJS',
         'Heroku'
       ],
-      description: 'Full-Stack e-commerce website allowing users to sort results by desired criteria, as well as access Wishlist and Cart features once they create an account and sign-in',
+      description: 'Full-Stack e-commerce website allowing users to sort results by desired criteria, as well as access Wishlist and Cart features once they create an account and sign-in.',
       key: 2
     },
     {
@@ -55,17 +57,17 @@ export default function Portfolio() {
       github: 'https://github.com/michael-loeffler/Tech-Blog',
       deployed: 'https://shrouded-gorge-55801.herokuapp.com/',
       badges: [
-        'Node',
-        'Express',
-        'SQL',
+        'MySQL',
         'Sequelize',
+        'Express',
         'Handlebars',
+        'Node',
         'bcrypt',
         'dotenv',
-        'Heroku',
-        'Model-View-Controller'
+        'Model-View-Controller',
+        'Heroku'
       ],
-      description: 'Full-Stack blog web application allowing users to create, update & delete posts, as well as comments on other posts.',
+      description: 'Full-Stack blog web application allowing users to create, update, or delete posts and the same with comments on other posts.',
       key: 3
     },
     {
@@ -78,6 +80,7 @@ export default function Portfolio() {
         'webpack',
         'idb',
         'Express',
+        'Heroku'
       ],
       description: 'A simple text editor that allows users to store notes and/or code snippets for future reference, used as an opportunity to learn about Progressive Web Applications (PWAs).',
       key: 4
