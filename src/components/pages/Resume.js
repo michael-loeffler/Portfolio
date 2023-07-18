@@ -32,7 +32,7 @@ export default function Resume() {
               <li className="list-group-item">Express</li>
               <li className="list-group-item">MySQL</li>
               <li className="list-group-item">Sequelize</li>
-              <li className="list-group-item">Model View Controller framework</li>
+              <li className="list-group-item">Model-View-Controller framework</li>
               <li className="list-group-item">MongoDB</li>
               <li className="list-group-item">Mongoose</li>
               <li className="list-group-item">MERN framework (MongoDB, Express, React, Node)</li>
