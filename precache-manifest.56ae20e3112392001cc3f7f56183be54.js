@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "80114af9d69417c8ae3c",
-    "url": "/Portfolio/static/css/main.9d355f0e.chunk.css"
+    "revision": "0efd4d71f3b597df62f6",
+    "url": "/Portfolio/static/css/main.b823c7e9.chunk.css"
   },
   {
-    "revision": "80114af9d69417c8ae3c",
-    "url": "/Portfolio/static/js/main.80114af9.chunk.js"
+    "revision": "0efd4d71f3b597df62f6",
+    "url": "/Portfolio/static/js/main.0efd4d71.chunk.js"
   },
   {
     "revision": "6f0c676792a3ddac39bd",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/Resume - Michael Loeffler.c3c01c2a.pdf"
   },
   {
-    "revision": "24ba8a7912421ebc24bc6f5f23674e0d",
+    "revision": "0e075af8b88a6b6619630c6166b14213",
     "url": "/Portfolio/index.html"
   }
 ];
