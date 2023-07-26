@@ -1,8 +1,16 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import 'bootstrap';
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs align-items-end">
+    <>
+    <button className='btn' type="button" data-bs-toggle="collapse" data-bs-target="#menuTabs" aria-expanded="false" aria-controls='#menuTabs'>
+    <FontAwesomeIcon icon={faBars} size='2xl'/>
+    </button>
+    <div className='collapse align-items-end' id='menuTabs'>
+     <ul className="nav nav-tab">
       <li className="nav-item">
         <a
           href="#about"
@@ -44,6 +52,8 @@ function Navigation({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
+    </>
   );
 }
 
