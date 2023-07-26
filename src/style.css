@@ -1,5 +1,5 @@
 @media screen and (min-width: 0px) {
-  .card {
+  .card, #form {
     width: 80%;
     height: 600px;
   }
@@ -14,7 +14,7 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .card {
+  .card, #form {
     width: 45%;
   }
   #resume {
@@ -22,7 +22,7 @@
   }
 }
 @media screen and (min-width: 1275px) {
-  .card {
+  .card, #form {
     width: 30%;
   }
   #resume {
