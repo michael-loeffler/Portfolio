@@ -6,6 +6,9 @@ import Resume from './components/pages/Resume';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+import './style.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   const [currentPage, setCurrentPage] = useState('About Me');
 

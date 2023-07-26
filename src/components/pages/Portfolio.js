@@ -48,7 +48,7 @@ export default function Portfolio() {
         'EmailJS',
         'Heroku'
       ],
-      description: 'Full-Stack e-commerce website allowing users to sort results by desired criteria, as well as access Wishlist and Cart features once they create an account and sign-in.',
+      description: 'Full-Stack e-commerce website allowing users to sort results by desired criteria, and access Wishlist and Cart features once logged in.',
       key: 2
     },
     {
