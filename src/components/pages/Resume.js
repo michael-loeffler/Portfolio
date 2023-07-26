@@ -8,7 +8,7 @@ export default function Resume() {
       <h1 className='text-center mt-3'>Resume</h1>
       <a href={resume} download="Resume - Michael Loeffler.pdf" target='_blank' rel='noopener noreferrer' className="btn btn-outline-info mt-3" id='resume'>Download my Resume</a>
 
-        <div id='skills' className="card mt-4 text-center">
+        <div className="card mt-4 text-center skills">
           <div className="card-header">
             <h5 className="mb-0">Front-End Proficiencies</h5>
           </div>
@@ -23,7 +23,7 @@ export default function Resume() {
             </ul>
         </div>
      
-        <div className="card mt-4 mb-2 text-center">
+        <div className="card mt-4 mb-2 text-center skills">
           <div className="card-header">
             <h5 className="mb-0">Back-End Proficiencies</h5>
           </div>
