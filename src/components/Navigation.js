@@ -9,6 +9,7 @@ function Navigation({ currentPage, handlePageChange }) {
     <button className='btn' type="button" data-bs-toggle="collapse" data-bs-target="#menuTabs" aria-expanded="false" aria-controls='#menuTabs'>
     <FontAwesomeIcon icon={faBars} size='2xl'/>
     </button>
+    
     <div className='collapse align-items-end' id='menuTabs'>
      <ul className="nav nav-tab">
       <li className="nav-item">
