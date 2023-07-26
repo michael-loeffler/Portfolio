@@ -4,20 +4,29 @@
     height: 600px;
   }
   .card-img-top {
-    height: 290px
+    height: 290px;
   }
   .card-body {
-    max-height: 310px
+    max-height: 310px;
+  }
+  #resume {
+    width: 60%;
   }
 }
 @media screen and (min-width: 768px) {
   .card {
     width: 45%;
   }
+  #resume {
+    width: 25%;
+  }
 }
 @media screen and (min-width: 1275px) {
   .card {
     width: 30%;
+  }
+  #resume {
+    width: 20%;
   }
 }
 
