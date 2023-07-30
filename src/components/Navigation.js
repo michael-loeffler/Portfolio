@@ -1,27 +1,23 @@
-import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+import React from 'react';
 import 'bootstrap';
+import '../style.css';
 
-function Navigation({ currentPage, handlePageChange }) {
-  const [showMenu, setShowMenu] = useState(false);
-
-  function toggleMenu() {
-    if (!showMenu) {
-      setShowMenu(true);
-    } else {
-      setShowMenu(false);
-    }
+const styles = {
+  navigation: {
+    background: 'turquoise',
+    fontSize: '20px',
+    color: 'black',
   }
+}
 
+function Navigation({ currentPage, handlePageChange, showMenu }) {
   return (
-    <div className='d-flex justify-content-end'>
-      <div className={
+      <div style={styles.navigation} className={
         showMenu
-          ? 'd-flex align-items-end'
+          ? 'd-flex align-self-end justify-content-end'
           : 'd-none'
       }>
-        <ul className="nav nav-tabs align-items-end">
+        <ul className="nav nav-tabs text-center d-block d-sm-flex">
           <li className="nav-item">
             <a
               href="#about"
@@ -64,15 +60,6 @@ function Navigation({ currentPage, handlePageChange }) {
           </li>
         </ul>
       </div>
-
-      <button onClick={toggleMenu} type="button" className='btn' aria-label='Hamburger Menu'>
-        {showMenu ? (
-          <FontAwesomeIcon icon={faXmark} size='2xl' />
-        ) : (
-          <FontAwesomeIcon icon={faBars} size='2xl' />
-        )}
-      </button>
-    </div>
   );
 }
 
