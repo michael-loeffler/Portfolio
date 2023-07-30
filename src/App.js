@@ -19,12 +19,12 @@ function App() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }    
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
     if (currentPage === 'Contact') {
       return <Contact />;
     }    
-    if (currentPage === 'Resume') {
-      return <Resume/>;
-    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

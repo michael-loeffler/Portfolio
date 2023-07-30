@@ -10,7 +10,6 @@ const styles = {
   },
   h1: {
     padding: 20,
-    display: 'inline'
   },
 };
 
