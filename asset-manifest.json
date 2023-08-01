@@ -1,7 +1,7 @@
 {
-  "main.css": "/Portfolio/static/css/main.0578072c.chunk.css",
-  "main.js": "/Portfolio/static/js/main.08750a9e.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.08750a9e.chunk.js.map",
+  "main.css": "/Portfolio/static/css/main.209eac51.chunk.css",
+  "main.js": "/Portfolio/static/js/main.07ca8381.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.07ca8381.chunk.js.map",
   "static/css/1.52fcc520.chunk.css": "/Portfolio/static/css/1.52fcc520.chunk.css",
   "static/js/1.0637a531.chunk.js": "/Portfolio/static/js/1.0637a531.chunk.js",
   "static/js/1.0637a531.chunk.js.map": "/Portfolio/static/js/1.0637a531.chunk.js.map",
@@ -14,9 +14,9 @@
   "static/media/pwa.png": "/Portfolio/static/media/pwa.f091804d.png",
   "static/media/weather.PNG": "/Portfolio/static/media/weather.b5bc6520.PNG",
   "static/media/Resume - Michael Loeffler.pdf": "/Portfolio/static/media/Resume - Michael Loeffler.c3c01c2a.pdf",
-  "static/css/main.0578072c.chunk.css.map": "/Portfolio/static/css/main.0578072c.chunk.css.map",
   "static/css/1.52fcc520.chunk.css.map": "/Portfolio/static/css/1.52fcc520.chunk.css.map",
+  "static/css/main.209eac51.chunk.css.map": "/Portfolio/static/css/main.209eac51.chunk.css.map",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.34d03b7312e72bda4c5972aa7243da44.js": "/Portfolio/precache-manifest.34d03b7312e72bda4c5972aa7243da44.js",
+  "precache-manifest.6a4776034cbc04a79d4b1c6c96bbb9c4.js": "/Portfolio/precache-manifest.6a4776034cbc04a79d4b1c6c96bbb9c4.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }
