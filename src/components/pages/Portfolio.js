@@ -29,6 +29,7 @@ export default function Portfolio() {
         'Heroku'
       ],
       description: 'Full-Stack, single-page calendar application allowing users to sign-in and create, update, or delete events to stay organized.',
+      alt: 'Screenshot of the Calendar App, providing an sample calendar in the month-view, displaying daily and multi-day events in a variety of colors. Other features of the app displayed in the screenshot include a "Create Event" button, navigation buttons, as well as the ability switch between month, week, work-week, day, and agenda views.',
       key: 1
     },
     {
@@ -49,6 +50,7 @@ export default function Portfolio() {
         'Heroku'
       ],
       description: 'Full-Stack e-commerce website allowing users to sort results by desired criteria, and access Wishlist and Cart features once logged in.',
+      alt: 'Screenshot of the E-commerce Site titled "Shoe Store", providing a preview of the homepage which displays different pairs of shoes as well as the features available to users with an account such as adding products to their Wishlist or to their Cart. The sort button is also featured, allowing users to sort products by price or by amount in stock.',
       key: 2
     },
     {
@@ -68,6 +70,7 @@ export default function Portfolio() {
         'Heroku'
       ],
       description: 'Full-Stack blog web application allowing users to create, update, or delete posts and the same with comments on other posts.',
+      alt: 'Screenshot of the Tech Blog to provide a preview of what a user\'s dashboard would look like once they are logged in. The dashboard page welcomes the user by name, displays any blog posts they have created, and includes buttons to update or delete blog posts.',
       key: 3
     },
     {
@@ -83,6 +86,7 @@ export default function Portfolio() {
         'Heroku'
       ],
       description: 'A simple text editor that allows users to store notes and/or code snippets for future reference, used as an opportunity to learn about Progressive Web Applications (PWAs).',
+      alt: 'Screenshot of the PWA Text Editor taken on a mobile device demonstrating that the application can be installed and used like any other mobile app. The screenshot includes a preview of what a user sees upon opening the app, as well as the app appearing on an iPhone\'s home screen.',
       key: 4
     },
     {
@@ -98,6 +102,7 @@ export default function Portfolio() {
         'OpenWeather API'
       ],
       description: 'Front-End web application that utilizes the OpenWeatherMap API to fetch weather data for a city based on user input.',
+      alt: 'Screenshot of the Weather Dashboard showing the weather for a given day, as well as for the next 5 days, of a city searched by the user. The dashboard provides temperature, wind speed, and humidity for each day, as well as an icon depicting the weather for the day. Finally, the dashboard displays a search history of the cities the user has viewed.',
       key: 5
     },
   ];
@@ -108,7 +113,7 @@ export default function Portfolio() {
       <div className='card-deck d-flex flex-wrap justify-content-around'>
         {projects.map((project) => {
           return (
-            <Project title={project.title} src={project.src} github={project.github} deployed={project.deployed} badges={project.badges} description={project.description} key={project.key}/>
+            <Project title={project.title} src={project.src} github={project.github} deployed={project.deployed} badges={project.badges} description={project.description} alt={project.alt} key={project.key}/>
           );
         })}
       </div>

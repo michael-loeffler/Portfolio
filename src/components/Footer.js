@@ -13,7 +13,7 @@ export default function Footer() {
           data-mdb-ripple-color="dark"
           target="_blank"
           rel="noopener noreferrer"
-          ><FontAwesomeIcon icon={faLinkedinIn}/>
+          ><FontAwesomeIcon alt='LinkedIn Logo' icon={faLinkedinIn}/>
         </a>
         <a
           className="btn btn-link btn-floating btn-lg text-dark m-1"
@@ -22,7 +22,7 @@ export default function Footer() {
           data-mdb-ripple-color="dark"
           target="_blank"
           rel="noopener noreferrer"
-          ><FontAwesomeIcon icon={faGithub}/>
+          ><FontAwesomeIcon alt='GitHub Logo' icon={faGithub}/>
         </a>
         <a
           className="btn btn-link btn-floating btn-lg text-dark m-1"
@@ -31,7 +31,7 @@ export default function Footer() {
           data-mdb-ripple-color="dark"
           target="_blank"
           rel="noopener noreferrer"
-          ><FontAwesomeIcon icon={faInstagram}/>
+          ><FontAwesomeIcon alt='Instagram Logo' icon={faInstagram}/>
         </a>
         </section>
     </footer>
