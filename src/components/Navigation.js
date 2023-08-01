@@ -20,6 +20,7 @@ function Navigation({ currentPage, handlePageChange, showMenu }) {
         <ul className="nav nav-tabs text-center d-block d-sm-flex">
           <li className="nav-item">
             <a
+              id='mobileAbout'
               href="#about"
               onClick={() => handlePageChange('About Me')}
               className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
@@ -30,6 +31,7 @@ function Navigation({ currentPage, handlePageChange, showMenu }) {
           </li>
           <li className="nav-item">
             <a
+              id='mobilePortfolio'
               href="#portfolio"
               onClick={() => handlePageChange('Portfolio')}
               className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
@@ -40,6 +42,7 @@ function Navigation({ currentPage, handlePageChange, showMenu }) {
           </li>
           <li className="nav-item">
             <a
+              id='mobileResume'
               href="#resume"
               onClick={() => handlePageChange('Resume')}
               className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
@@ -50,6 +53,7 @@ function Navigation({ currentPage, handlePageChange, showMenu }) {
           </li>
           <li className="nav-item">
             <a
+              id='mobileContact'
               href="#contact"
               onClick={() => handlePageChange('Contact')}
               className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}

@@ -33,6 +33,18 @@
     margin-top: 10px;
     height: 300px;
   }
+  #mobileAbout, #mobilePortfolio, #mobileResume {
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0.375rem;
+  }
+  #mobileContact {
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
 }
 @media screen and (min-width: 576px) {
   #about {
@@ -51,6 +63,12 @@
     text-align: left;
     width: 50%;
     margin-top: 0px;
+  }
+  #mobileAbout, #mobilePortfolio, #mobileResume {
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
   }
 }
 @media screen and (min-width: 768px) {
