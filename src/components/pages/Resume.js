@@ -6,7 +6,8 @@ export default function Resume() {
   return (
     <div className="d-flex flex-column align-items-center" style={{paddingBottom: "50px"}}>
       <h1 className='text-center mt-3'>Resume</h1>
-      <a href={resume} download="Resume - Michael Loeffler.pdf" target='_blank' rel='noopener noreferrer' className="btn btn-outline-info mt-3" id='resume'>Download my Resume</a>
+      <a href={resume} download="Resume - Michael Loeffler.pdf" target='_blank' rel='noopener noreferrer' className="btn btn-info mt-3" id='resume'>Download my Resume</a>
+      <a href="mailto:michaelloeffler23@gmail.com" target='_blank' rel='noopener noreferrer' className="btn btn-info mt-3" id='email'>Send me an email: michaelloeffler23@gmail.com</a>
 
         <div className="card mt-4 text-center skills">
           <div className="card-header">

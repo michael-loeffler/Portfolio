@@ -51,7 +51,7 @@ function Navigation({ currentPage, handlePageChange, showMenu }) {
               Resume
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a
               id='mobileContact'
               href="#contact"
@@ -61,7 +61,7 @@ function Navigation({ currentPage, handlePageChange, showMenu }) {
             >
               Contact
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
   );

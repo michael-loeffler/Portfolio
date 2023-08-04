@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
-import Contact from './components/pages/Contact';
+// import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
@@ -23,9 +23,9 @@ function App() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    if (currentPage === 'Contact') {
-      return <Contact />;
-    }
+    // if (currentPage === 'Contact') {
+    //   return <Contact />;
+    // }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

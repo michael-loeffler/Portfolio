@@ -3,17 +3,17 @@
     width: 80%;
     height: 600px;
   }
-  .skills {
-    height: auto;
-  }
   .card-img-top {
     height: 290px;
   }
   .card-body {
     max-height: 310px;
   }
-  #resume {
-    width: 60%;
+  .skills {
+    height: auto;
+  }
+  #resume, #email {
+    width: 65%;
   }
   #about {
     display: flex;
@@ -33,13 +33,13 @@
     margin-top: 10px;
     height: 300px;
   }
-  #mobileAbout, #mobilePortfolio, #mobileResume {
+  #mobileAbout, #mobilePortfolio {
     border-top-left-radius: 0.375rem;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0.375rem;
   }
-  #mobileContact {
+  /* #mobileContact */ #mobileResume  {
     border-top-left-radius: 0.375rem;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
@@ -64,19 +64,28 @@
     width: 50%;
     margin-top: 0px;
   }
-  #mobileAbout, #mobilePortfolio, #mobileResume {
+  #mobileAbout, #mobilePortfolio {
     border-top-left-radius: 0.375rem;
     border-top-right-radius: 0.375rem;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+  }
+  .skills {
+    width: 70%
+  }
+  #resume, #email {
+    width: 55%;
   }
 }
 @media screen and (min-width: 768px) {
   .card, #form {
     width: 45%;
   }
-  #resume {
-    width: 25%;
+  .skills {
+    width: 40%
+  }
+  #resume, #email {
+    width: 35%;
   }
   #headshot {
     width: 40%;
@@ -92,7 +101,10 @@
   .card, #form {
     width: 30%;
   }
-  #resume {
+  .skills {
+    width: 30%
+  }
+  #resume, #email {
     width: 20%;
   }
   #bio {
