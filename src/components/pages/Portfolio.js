@@ -1,4 +1,3 @@
-// import thumbnail from '../../assets/placeholder-300x200.gif';
 import React from 'react';
 import Project from '../Project'
 import calendar from '../../assets/calendar.png'
