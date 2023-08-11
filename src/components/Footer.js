@@ -35,7 +35,7 @@ export default function Footer() {
         </a>
       </div>
       <div>
-        <a className='mb-1 fs-6 fw-lighter text-muted text-decoration-none' href="https://www.flaticon.com/free-icons/folder" title="folder icons" target="_blank" rel="noopener noreferrer">Favicon by Kiranshastry</a>
+        <a className='mb-1 fs-6 fw-lighter text-muted text-decoration-none' href="https://www.flaticon.com/packs/files-and-folders-18" title="folder icons" target="_blank" rel="noopener noreferrer">Favicon by Kiranshastry</a>
       </div>
     </footer>
   )
