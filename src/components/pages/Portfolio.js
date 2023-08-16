@@ -101,7 +101,7 @@ export default function Portfolio() {
       key: 4
     },
     {
-      title: 'Weather Dashboard - Server-Side APIs',
+      title: 'Weather Dashboard',
       src: weather,
       github: 'https://github.com/michael-loeffler/Weather-Dashboard',
       deployed: 'https://michael-loeffler.github.io/Weather-Dashboard/',
