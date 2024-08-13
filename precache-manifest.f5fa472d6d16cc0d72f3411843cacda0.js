@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "2c21e128588169534f1e",
-    "url": "/Portfolio/static/css/main.3e3574fa.chunk.css"
+    "revision": "747b2a3eeed56b10fa8d",
+    "url": "/Portfolio/static/css/main.e070b2e3.chunk.css"
   },
   {
-    "revision": "2c21e128588169534f1e",
-    "url": "/Portfolio/static/js/main.2c21e128.chunk.js"
+    "revision": "747b2a3eeed56b10fa8d",
+    "url": "/Portfolio/static/js/main.747b2a3e.chunk.js"
   },
   {
-    "revision": "1abaa7ea18eecb86ba19",
-    "url": "/Portfolio/static/css/1.edc30897.chunk.css"
+    "revision": "eb95483d66358bba7e8d",
+    "url": "/Portfolio/static/css/1.6660f34c.chunk.css"
   },
   {
-    "revision": "1abaa7ea18eecb86ba19",
-    "url": "/Portfolio/static/js/1.1abaa7ea.chunk.js"
+    "revision": "eb95483d66358bba7e8d",
+    "url": "/Portfolio/static/js/1.eb95483d.chunk.js"
   },
   {
     "revision": "3b96116072eb85f5a3a2",
@@ -32,6 +32,10 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/ecommerce.032349da.PNG"
   },
   {
+    "revision": "6f84b16957987ad276200b78e6ceb27b",
+    "url": "/Portfolio/static/media/python.6f84b169.png"
+  },
+  {
     "revision": "1f414c582cd7df3318afe02405e7c99f",
     "url": "/Portfolio/static/media/tech.1f414c58.PNG"
   },
@@ -44,11 +48,15 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/weather.b5bc6520.PNG"
   },
   {
-    "revision": "dd61b7b3d652a70c8b9a60fbd3d45be7",
-    "url": "/Portfolio/static/media/Resume - Michael Loeffler.dd61b7b3.pdf"
+    "revision": "df84b7b30aaeea755b23eb289a010495",
+    "url": "/Portfolio/static/media/badge.df84b7b3.png"
   },
   {
-    "revision": "f9de1b3d6fabfe2d32b1dd79f629e348",
+    "revision": "e6edec8286afc4f2d4dd377c9c849f7d",
+    "url": "/Portfolio/static/media/Resume - Michael Loeffler.e6edec82.pdf"
+  },
+  {
+    "revision": "e9280f44e8ea4d43c64f45cfd3db46ab",
     "url": "/Portfolio/index.html"
   }
 ];
