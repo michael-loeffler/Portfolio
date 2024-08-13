@@ -2,9 +2,11 @@ import React from 'react';
 import Project from '../Project'
 import calendar from '../../assets/calendar.png'
 import ecommerce from '../../assets/ecommerce.PNG'
+import python from '../../assets/python.png'
 import tech from '../../assets/tech.PNG'
 import pwa from '../../assets/pwa.png'
 import weather from '../../assets/weather.PNG'
+import badge from '../../assets/badge.png'
 
 export default function Portfolio() {
 
@@ -59,6 +61,47 @@ export default function Portfolio() {
       key: 2
     },
     {
+      title: 'Python News Feed',
+      src: python,
+      github: 'https://github.com/michael-loeffler/python-newsfeed',
+      deployed: 'https://morning-tor-74579-9e2c56a00e99.herokuapp.com/',
+      badges: [
+        'Python',
+        'Flask',
+        'SQLAlchemy',
+        'PyMySQL',
+        'Jinja2',
+        'bcrypt',
+        'Gunicorn',
+        'Heroku'
+      ],
+      description: 'Python/Flask news application where users can post, upvote, or comment on links to tech articles.',
+      alt: 'Screenshot of the Python News Feed application called "Just Tech News", providing a preview of the homepage which displays posts made by users linking to useful resources.',
+      visible: true,
+      username: `Username: "test@test.com"`,
+      password: `Password: "12345"`,
+      key: 3
+    },
+    {
+      title: 'C# Security Badge Maker',
+      src: badge,
+      github: 'https://github.com/michael-loeffler/CSharp-Security-Badge-Maker',
+      deployed: 'https://drive.google.com/file/d/12jQorTxnfoHV4q-s7QRMQ7tRWxJNaI8O/view?usp=sharing',
+      badges: [
+        'C#',
+        '.Net Core SDK',
+        'dotnet',
+        'SkiaSharp',
+        'Newtonsoft.Json',
+      ],
+      description: 'C# command-line application where users can quickly generate security badges for new employees.',
+      alt: 'Sample security badge created using the application. It features a photo of an "employee" (my dog), their name, and their ID number, along with the company name and a barcode.',
+      visible: 'false',
+      username: ``,
+      password: ``,
+      key: 4
+    },
+    {
       title: 'Full-Stack Tech Blog',
       src: tech,
       github: 'https://github.com/michael-loeffler/Tech-Blog',
@@ -79,7 +122,7 @@ export default function Portfolio() {
       visible: true,
       username: `Username: "demo@test.com"`,
       password: `Password: "password123"`,
-      key: 3
+      key: 5
     },
     {
       title: 'PWA Text Editor',
@@ -98,7 +141,7 @@ export default function Portfolio() {
       visible: false,
       username: ``,
       password: ``,
-      key: 4
+      key: 6
     },
     {
       title: 'Weather Dashboard',
@@ -117,7 +160,7 @@ export default function Portfolio() {
       visible: false,
       username: ``,
       password: ``,
-      key: 5
+      key: 7
     },
   ];
 
