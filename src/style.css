@@ -12,7 +12,7 @@
   .skills {
     height: auto;
   }
-  #resume, #email {
+  #resumeLink, #email {
     width: 65%;
   }
   #about {
@@ -73,7 +73,7 @@
   .skills {
     width: 70%
   }
-  #resume, #email {
+  #resumeLink, #email {
     width: 55%;
   }
 }
@@ -84,7 +84,7 @@
   .skills {
     width: 40%
   }
-  #resume, #email {
+  #resumeLink, #email {
     width: 35%;
   }
   #headshot {
@@ -104,7 +104,7 @@
   .skills {
     width: 30%
   }
-  #resume, #email {
+  #resumeLink, #email {
     width: 20%;
   }
   #bio {
