@@ -18,7 +18,7 @@ function Project({ src, alt, title, description, badges, visible, username, pass
                 </div>
             </div>
             <div className="card-footer d-flex justify-content-between">
-                <a href={deployed} target="_blank" rel="noopener noreferrer"><small className="text-dark">Deployed App</small></a>
+                <a href={deployed} target="_blank" rel="noopener noreferrer"><small className="text-dark">Deployed App/Demo</small></a>
                 <a href={github} target="_blank" rel="noopener noreferrer"><small className="text-dark">GitHub Repo</small></a>
             </div>
         </div>
